@@ -2,10 +2,6 @@
 mul(){
 c=a*b;
 }
-add(){
-c=a+b;
-return c;
-}
 sub(){
 c=a-b;
 return c;
