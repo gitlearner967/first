@@ -1,0 +1,8 @@
+
+mul(){
+c=a*b;
+}
+sub(){
+c=a-b;
+return c;
+}
