@@ -87,6 +87,5 @@
       <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/SampleProjectSnapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
-    ...
-  </distributionManagement>
+ </distributionManagement>
 </project>
