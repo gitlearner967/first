@@ -77,7 +77,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>sample-project-releases</id>
       <name>sample-project-releases</name>
-      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/sampleprojectreleases/</url>
+      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/sample-project-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
