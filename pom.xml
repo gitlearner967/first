@@ -72,4 +72,21 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>sampleprojectreleases</id>
+      <name>sampleprojectreleases</name>
+      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/sampleprojectreleases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>SampleProjectSnapshot</id>
+      <name>Sample Project Snapshot</name>
+      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/SampleProjectSnapshot/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+    ...
+  </distributionManagement>
 </project>
