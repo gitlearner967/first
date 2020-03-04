@@ -75,9 +75,9 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>sample-project-releases</id>
-      <name>sample-project-releases</name>
-      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/sample-project-releases/</url>
+      <id>first-releases</id>
+      <name>first-releases</name>
+      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/first-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
