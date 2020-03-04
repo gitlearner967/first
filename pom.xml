@@ -82,9 +82,9 @@
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>sample-project-snapshots</id>
-      <name>sample-project-snapshots</name>
-      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/sample-project-snapshots/</url>
+      <id>first-snapshots</id>
+      <name>first-snapshots</name>
+      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/first-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
  </distributionManagement>
