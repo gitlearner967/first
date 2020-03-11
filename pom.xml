@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>sampleproject1</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>sampleproject1</name>
   <!-- FIXME change it to the project's website -->
@@ -77,14 +77,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>first-releases</id>
       <name>first-releases</name>
-      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/first-releases/</url>
+      <url>ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/first-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>first-snapshots</id>
       <name>first-snapshots</name>
-      <url>http://ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/first-snapshots/</url>
+      <url>ec2-54-183-251-47.us-west-1.compute.amazonaws.com:8081/nexus/content/repositories/first-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
  </distributionManagement>
